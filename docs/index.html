@@ -1,0 +1,7 @@
+---
+layout: page
+---
+<div class="index-wrapper">
+  <a class="link-1" href="{% assign sorted = (site.posts | sort: 'date')  %} {{site.url}}{{ sorted[0].url }}">post</a> /
+  <a class="link-1" href="/about/">about</a> /
+</div>
